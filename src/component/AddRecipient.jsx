@@ -33,7 +33,7 @@ const AddRecipient = () => {
     formData.append('receivedAmount', 0)
     formData.append('photo', File)
     
-    axios.post('http://localhost:3000/recipients', formData)
+    axios.post('http://ek-zaria-backend-1.onrender.com/recipients', formData)
       .then(res => {
         console.log(res)
         setLoader(false)
