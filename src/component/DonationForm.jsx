@@ -20,7 +20,7 @@ const DonationForm = ({ recipientId, onDonationSuccess }) => {
         donorEmail: DonorEmail
       }
 
-      axios.put(`http://localhost:3000/recipients/${recipientId}/donate`, donationData)
+      axios.put(`http://ek-zaria-backend-1.onrender.com/recipients/${recipientId}/donate`, donationData)
         .then(res => {
           console.log(res)
           setProcessing(false)
