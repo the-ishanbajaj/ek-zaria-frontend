@@ -9,7 +9,7 @@ const RecipientDetails = () => {
   const [Loading, setLoading] = useState(true)
 
   const fetchRecipient = () => {
-    axios.get(`http://ek-zaria-backend-1.onrender.com/recipients/${id}`)
+    axios.get(`https://ek-zaria-backend-1.onrender.com/recipients/${id}`)
       .then(res => {
         console.log(res.data)
         setRecipient(res.data)
