@@ -36,7 +36,7 @@ const RecipientDetails = () => {
     <>
       <div className="recipient-details">
         <div className="details-header">
-          <img src={`http://localhost:3000/${Recipient.photo}`} alt={Recipient.name} />
+          <img src={`https://localhost:3000/${Recipient.photo}`} alt={Recipient.name} />
           <h1>{Recipient.name}</h1>
         </div>
 
