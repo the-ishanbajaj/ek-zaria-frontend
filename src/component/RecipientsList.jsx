@@ -8,7 +8,7 @@ const RecipientsList = () => {
   const [Loading, setLoading] = useState(true)
 
   useEffect(() => {
-    axios.get('http://ek-zaria-backend-1.onrender.com/recipients')
+    axios.get('https://ek-zaria-backend-1.onrender.com/recipients')
       .then(res => {
         console.log(res.data)
         setRecipients(res.data)
